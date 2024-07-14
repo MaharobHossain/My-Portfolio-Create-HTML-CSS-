@@ -7,5 +7,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
     
+}
+.main-containt{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.navlist{
+    
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    
+}
+.navlist ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+
+.navlist ul li{
+list-style: none;
+}
+.navlist ul li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+
 }
